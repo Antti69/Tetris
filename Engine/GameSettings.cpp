@@ -9,7 +9,7 @@ GameSettings::GameSettings()
     }
     else
     {
-        throw std::exception("Cannot open settings file");
+        VerticalSpeed = deffault;
     }
     
 }
@@ -23,7 +23,7 @@ void GameSettings::Save()
     }
     else
     {
-        throw std::exception("Cannot open settings file");
+        VerticalSpeed = deffault;
     }
 }
 

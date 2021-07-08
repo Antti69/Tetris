@@ -16,5 +16,6 @@ public:
 
 private:
 	int VerticalSpeed;
+	int deffault = 4;
 	Font Setting = { "kuvat//Consolas13x24.bmp" };
 };
